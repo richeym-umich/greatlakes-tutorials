@@ -10,7 +10,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
 #load dataset- CHANGE THIS TO LOCAL FILENAME
-filename = '/scratch/hpcstaff_root/hpcstaff/richeym/workshops/ml-on-greatlakes/iris.csv'
+filename = '/scratch/hpcstaff_root/hpcstaff/richeym/tutorials/intro-to-greatlakes/iris.csv'
 
 #Specify column names of data
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']

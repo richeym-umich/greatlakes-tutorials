@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.svm import SVC
 
 #Load our dataset- CHANGE TO LOCAL FILENAME
-filename = '/scratch/hpcstaff_root/hpcstaff/richeym/workshops/ml-on-greatlakes/iris.csv'
+filename = '/scratch/hpcstaff_root/hpcstaff/richeym/tutorials/intro-to-greatlakes/iris.csv'
 
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = read_csv(filename, names=names)
